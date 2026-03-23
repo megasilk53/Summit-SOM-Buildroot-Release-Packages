@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin" fetch="https://github.com/Ezurio" />
+  <remote  name="rfpros" fetch="https://github.com/rfpros" />
+
+  <default remote="origin" revision="refs/tags/LRD-REL-13.0.57.22" />
+
+  <project path="som-external"
+           name="som-external.git" />
+
+  <project path="buildroot"
+           name="wb-buildroot.git" />
+
+  <project path="som-external/externals/u-boot-som60"
+           name="u-boot-som.git" />
+
+  <project path="som-external/externals/lrd-userspace-examples"
+           name="lrd-userspace-examples.git" />
+
+  <project path="summit-radio-external"
+           name="summit-radio-external.git"
+           revision="lrd-13.0.40.x" />
+
+  <project path="summit-radio-devel-external"
+           remote="rfpros"
+           name="cp_linux-summit-radio-devel-external.git"
+           revision="refs/tags/LRD-REL-13.0.57.22" />
+
+</manifest>
