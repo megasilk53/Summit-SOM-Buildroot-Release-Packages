@@ -3,6 +3,7 @@
 
   <remote  name="origin" fetch="https://github.com/Ezurio" />
   <remote  name="rfpros" fetch="https://github.com/rfpros" />
+  <remote  name="megasilk53" fetch="https://github.com/megasilk53" />
 
   <default remote="origin" revision="refs/tags/LRD-REL-13.0.57.22" />
 
@@ -23,8 +24,8 @@
            revision="lrd-13.0.40.x" />
 
   <project path="summit-radio-devel-external"
-           remote="rfpros"
+           remote="megasilk53"
            name="cp_linux-summit-radio-devel-external.git"
-           revision="refs/tags/LRD-REL-13.0.57.22" />
+           revision="if91x-mfg" />
 
 </manifest>
