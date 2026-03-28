@@ -2,13 +2,14 @@
 <manifest>
 
   <remote  name="origin" fetch="https://github.com/Ezurio" />
-  <remote  name="rfpros" fetch="https://github.com/rfpros" />
   <remote  name="megasilk53" fetch="https://github.com/megasilk53" />
 
   <default remote="origin" revision="refs/tags/LRD-REL-13.0.57.22" />
 
   <project path="som-external"
-           name="som-external.git" />
+           remote="megasilk53"
+           name="som-external.git"
+           revision="if91x-mfg" />
 
   <project path="buildroot"
            name="wb-buildroot.git" />
@@ -22,10 +23,5 @@
   <project path="summit-radio-external"
            name="summit-radio-external.git"
            revision="lrd-13.0.40.x" />
-
-  <project path="summit-radio-devel-external"
-           remote="megasilk53"
-           name="cp_linux-summit-radio-devel-external.git"
-           revision="if91x-mfg" />
 
 </manifest>
