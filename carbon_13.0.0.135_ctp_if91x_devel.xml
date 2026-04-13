@@ -14,8 +14,12 @@
   <project path="buildroot"
            name="wb-buildroot.git" />
 
+  <!-- U-Boot: pinned to 13.0.57.22 which introduced imx8mp_ctp_defconfig.
+       LRD-REL-13.0.0.135 does not exist in u-boot-som; CTP U-Boot support
+       first appeared in the 13.0.57.x Carbon product line. -->
   <project path="som-external/externals/u-boot-som60"
-           name="u-boot-som.git" />
+           name="u-boot-som.git"
+           revision="refs/tags/LRD-REL-13.0.57.22" />
 
   <project path="som-external/externals/lrd-userspace-examples"
            name="lrd-userspace-examples.git" />
